@@ -2,7 +2,7 @@
 
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [Unix & Linus Systems Administration Handbook](https://www.oreilly.com/library/view/unix-and-linux/9780134278308/) - ebook or print book available
-- [How Linux Works, 2nd Edition by Brian Ward](https://nostarch.com/howlinuxworks2) - ebook or print book available
+- [How Linux Works, 3rd Edition by Brian Ward](https://nostarch.com/howlinuxworks2) - ebook or print book available
 - [MIT's Missing Semester](https://missing.csail.mit.edu/) - helps with covering background information
 - [System Monitoring & CLI Diagnostic Tools](https://docs.monadical.com/s/system-monitoring-tools)
 
@@ -28,6 +28,7 @@
 ### AWS:
 
 - [AWS for Beginners](https://www.cloudways.com/blog/aws-for-beginners/) - intro to terminology & some services
+- Until AWS Educate gets its act together, we can't use CLI - that said, it's really cool to play with on your own
 - [AWS CLI](https://aws.amazon.com/cli/)
 - [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/#available-services)
 
