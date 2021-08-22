@@ -10,50 +10,7 @@ for you to use to complete the tasks given.
 
 ## Getting Started:
 
-### Text Editors:
-
-I recommend [Visual Studio Code](https://code.visualstudio.com/) as a cross platform solution (plus dark mode looks cool). You can also use any default text editor on your system (Notepad, Notepad++, or whatever Mac's have).
-
-### Setup for Windows Users
-
-1. Install WSL 2
-
-- [Follow instructions on the Windows blog](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
-- Common pitfalls:
-  - Windows is not fully up to date.
-  - Did not reboot **before** running the change version command
-- After installing Ubuntu from the Windows store, open Ubuntu once
-  - After the installion message finishes, you should be prompted to create a username and password
-- [WSL2 Troubleshooting](#WSL-2-Install-Errors)
-
-2. In later labs, you will need two terminals open. It is absolutely alright to open multiple instances of Ubuntu, but it can be convenient to have a "tab" based setup. I recommend `Windows Terminal` (can be found in the Windows Store) or `MobaXTerm` (installation instructions below)
-
-3. Optional: [Download MobaXterm Home Edition: Installer Edition](https://download.mobatek.net/2062020111930940/MobaXterm_Installer_v20.6.zip)
-
-- Extract the contents to your Desktop.
-- Double-click to run the installer
-- Once installed, run the program one time - this finishes the installation
-- You can now delete the installation files
-- Open Moba. You can now choose to run WSL Ubuntu _or_ Moba bash.
-  - To change terminals, go to Settings -> Configuration. Select the Terminal tab. In the dropdown at the bottom, change from `bash` to `WSL Ubuntu`
-- Keep your SSH session "alive"
-  - `Settings` -> `Configuration`. In `SSH` tab, checkmark the box corresponding to `SSH keepalive`
-
-4. If you **do not have administrative privileges** on the system, you will need to install MobaXTerm (step 3) and install Cygutils (instructions below) in order to perform the labs.
-
-- In Moba, select the Packages icon at the top.
-- Wait for the package menu to appear.
-- In the search bar, type "cygutils". Select the package from the result listings
-- Select Install / Update.
-- Restart Moba. Start Local Terminal should work
-- In the toolbar for Moba, go to Settings -> Configuration
-- In the General tab, check the following two fields are populated with the following values:
-  - Persistent home directory: `_MyDocuments_\MobaXterm\home`
-  - Persistent root directory: `_MyDocuments_\MobaXterm\slash`
-
-### Mac & Linux Users
-
-- You should have a terminal already installed. Hunt it down ;)
+- [Setup your environment](EnvironmentSetup.md)
 
 ## Before you start: Register for AWS Educate
 
@@ -142,18 +99,6 @@ While exploring and discovery is an important part of this course, any additiona
   - If your connection was refused, you may have forgotten to put the username `ubuntu` in front of your Elastic IP address
 - You are now signed in to your AWS Educate system as the user `ubuntu`
 
-## Git Going
-
-1. Create or sign in to your [github](https://github.com/) account.
-
-## Git Passwordless (If you want)
-
-Note you will need to create the key pair on any system you want to use passwordless authentication on.
-
-1. [Create a key pair, upload public key (.\*\.pub) to github](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-2. [Change your repo to authenticate with SSH (not HTTPS)](https://help.github.jp/enterprise/2.11/user/articles/changing-a-remote-s-url/)
-3. [If you have errors, poke around here](https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey)
-
 ## Troubleshooting
 
 ### Destroying Excess Cloud Formations
@@ -173,26 +118,6 @@ The steps below should only be needed if you lost your key from AWS Educate. If 
 4. Select Key Pairs
 5. Select your key pair(s) and select Delete.
 6. Recreate your environment by following the steps above
-
-### I have a Chromebook, and ssh in Terminal isn't working...
-
-This guide here refers to a [Chrome Extension for SSH connections](https://www.lifewire.com/how-to-use-chromebook-ssh-client-4690108)
-
-- To use your AWS Educate Private Key, you'll need to select "Import..." and browse to your  
-  key file - you can then select your key from the dropdown.
-- You may need to make a "failed" connection in order to get the permission to access files  
-  questions to pop up.
-
-### WSL 2 Install Errors
-
-- Error message:
-
-```
-The requested operation could not be completed due to a virtual disk system limitation.
-Virtual hard disk files must be uncompressed and unencrypted and must not be sparse.
-```
-
-- Follow [WSL2 VHD Issue Guide](https://utf9k.net/blog/wsl2-vhd-issue/)
 
 ### Acknowledgement
 
