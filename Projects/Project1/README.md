@@ -1,11 +1,11 @@
-# Project 1 - NOT FINALIZED
+# Project 1
 
 ## Objectives:
 
 - Create a git server of your own on your AWS instance
 - Understand the background actions involved with git
-- Work more with ssh keys and understanding locations for key based authentication
-- Create documentation with markdown and practice project organization
+- Work more with ssh keys and understanding files for key based authentication
+- Create documentation with markdown
 
 ## The Goal
 
