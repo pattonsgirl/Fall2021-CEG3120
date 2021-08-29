@@ -1,24 +1,21 @@
 # Project 1 Rubric
 
+Documentation exists in `README.md` in GitHub classroom repo for this course
 
-Connected to GitHub Classroom repo
-
-Documentation exists in `README.md`
-
-Setup:
+Setup (3 pts):
 - on server side / AWS instance, how to:
     - setup for repositories
     - users, folders, permissions
     - SSH key directions
 
-Usage guide:
+Usage guide (5 pts):
 - clone usage & description
 - init usage & description
 - add usage & description
 - commit usage & description
 - push usage & description
 
-Proof:
+Proof (2 pts):
 - Screenshot of repo on AWS instance
 - Screenshot of sucessful clone
 
