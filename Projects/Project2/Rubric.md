@@ -1,0 +1,11 @@
+Discord-Bot
+- python bot code exists
+    - bot outputs from a set of quotes OR a set of pictures
+- README.md
+    - description of bot
+    - how (where?) the API key goes
+    - listing of dependencies
+        - python3
+        - python3-pip
+        - pip3 install -U python-dotenv
+        - pip3 install discord.py
