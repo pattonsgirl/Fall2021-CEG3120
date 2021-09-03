@@ -32,7 +32,7 @@ git@github.com:WSU-kduncan/ceg3120-pattonsgirl-1.git
 
 ## The Requirements
 
-- Use your AWS instance to configure on or more git repositories
+- Use your AWS instance to configure one or more git repositories
 - Have it behave similar to GitHub, in that the URL format: `git@AWS_IP:project_creator/repo_name.git` works
     - **NOTE:** `Linux_AWS_IP` can either be your IP to your AWS instance OR a `Host` name reference set up in `~/.ssh/config`
 - Setup SSH authentication to the `git` user on the AWS instance
