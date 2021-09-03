@@ -16,6 +16,7 @@ A successful project will be able to use:
 git clone git@AWS_IP:project_creator/repo_name.git
 ```
 - `AWS_IP` = the public IP address of your AWS instance
+    - **NOTE:** `AWS_IP` can either be your IP to your AWS instance OR a `Host` name reference set up in `~/.ssh/config`
 - `project_creator` = project creator is used organizationally to have repositories clustered with their project owners
 - `repo_name` = the folder name of your repository that was initialized on the server
 
@@ -33,6 +34,7 @@ git@github.com:WSU-kduncan/ceg3120-pattonsgirl-1.git
 
 - Use your AWS instance to configure on or more git repositories
 - Have it behave similar to GitHub, in that the URL format: `git@AWS_IP:project_creator/repo_name.git` works
+    - **NOTE:** `Linux_AWS_IP` can either be your IP to your AWS instance OR a `Host` name reference set up in `~/.ssh/config`
 - Setup SSH authentication to the `git` user on the AWS instance
 - In the GitHub repo for the course, create a new folder called `Project1`.  
 - In the folder, create a `README.md` file that provides documentation of:

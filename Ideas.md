@@ -53,6 +53,7 @@ Continuous integration / deployment
     Project 5:
     (In class play with hooks - maybe just a quiz?)
     Use webhooks to let GitHub notify servers there's been a change (use webpage idea to play with this for now?)
+    https://dzone.com/articles/github-continuous-deployment-to-a-raspberry-pi
 
     Project 6:
     Containerize Discord bot - trick: figure out how to protect and deploy API key
