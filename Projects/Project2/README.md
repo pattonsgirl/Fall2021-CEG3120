@@ -86,4 +86,7 @@ You are welcome to use any Discord server you are an admin of.  Otherwise you ca
 
 Mistakes happen.  If you made your API key public (up to GitHub), Discord killed it.  Make a new key in the Discord Developer Portal, eat some ice cream (as needed), and deal with untracking a tracked file, below.
 
-- TODO
+- The command you need is `git rm --cached filename`
+- Check your `git status` output.
+- Make sure you add it to `.gitignore` to prevent this in the future
+- `push` your changes to GitHub - you should see the file disappear
