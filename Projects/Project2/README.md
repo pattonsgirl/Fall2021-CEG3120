@@ -90,3 +90,8 @@ Mistakes happen.  If you made your API key public (up to GitHub), Discord killed
 - Check your `git status` output.
 - Make sure you add it to `.gitignore` to prevent this in the future
 - `push` your changes to GitHub - you should see the file disappear
+
+Resources:
+
+- [How to remove a file from git tracking](https://www.codegrepper.com/code-examples/shell/how+to+remove+a+file+from+git+tracking)
+- [git rm documentation](https://git-scm.com/docs/git-rm)
