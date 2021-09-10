@@ -9,6 +9,21 @@ Note: any time you see repository, assume your GitHub repo for this course, not 
 - Build projects locally, then deploy them to your AWS instance
 - Explore long term solutions to serving content that don't involve leaving your machine on or connected to the terminal 24/7
 
+## The Story
+
+A developer is handing a project off to you for deployment.  He has left you [documentation](https://realpython.com/how-to-make-a-discord-bot-python/) of how it works, the [core code](bot.py), and some changes to make before the project goes live.
+
+Your job is to put the code into your repository (in GitHub classrooms) in a folder named `Project2`.  Read through the documentation and figure out:
+  - how to generate an API key from Discord
+  - where to store the API key for the project to run
+  - keep the API key / secret information off GitHub
+    - If you mess up, you'll need to create a new Discord API key, then tread carefully
+    - TODO: instructions for untracking a tracked file
+  - install the python packages needed to run the project
+Run the project locally (your system, perhaps), first.  Next, clone it (your GitHub classrooms repo) to your AWS instance and run the project from there.
+
+For the changes, you'll be customizing the bot to output your set of messages when a command of your choice is written on your Discord server.  To do this, you are going to create a `branch`, make your changes, test them, and then `merge` your changes with `main`
+
 ## Part 1 - Discord Bot Local
 
 1. Create a folder in your repository called `Discord-Bot`
