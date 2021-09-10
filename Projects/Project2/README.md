@@ -13,7 +13,7 @@ Note: any time you see repository, assume your GitHub repo for this course, not 
 
 A developer is handing a project off to you for deployment.  He has left you [documentation](https://realpython.com/how-to-make-a-discord-bot-python/) of how it works, the [core code](bot.py), and some changes to make before the project goes live.
 
-Your job is to put the code into your repository (in GitHub classrooms) in a folder named `Project2`.  Read through the documentation and figure out:
+Your job is to put the code into your repository (in GitHub classrooms) in a folder named `Discord-Bot`.  Read through the documentation and figure out:
   - how to generate an API key from Discord
   - where to store the API key for the project to run
   - keep the API key / secret information off GitHub
@@ -24,22 +24,15 @@ Run the project locally (your system, perhaps), first.  Next, clone it (your Git
 
 For the changes, you'll be customizing the bot to output your set of messages when a command of your choice is written on your Discord server.  To do this, you are going to create a `branch`, make your changes, test them, and then `merge` your changes with `main`
 
-## Part 1 - Discord Bot Local
+## Part 1
 
 1. Create a folder in your repository called `Discord-Bot`
-2. Create a `README.md` file in this folder.
+2. Get the core code from [bot.py](bot.py) and copy / paste in into a `.py` file in your repo
 3. [Follow this guide](https://realpython.com/how-to-make-a-discord-bot-python/) to create a Discord bot in a Discord server you control.
 
 - The code for the bot can run either from your personal machine OR run it on the Linux AWS system.
 - I created a fresh Discord server to play around in. You are welcome to do this in any Discord server you have admin privledges or create your own (it's free)
 - Put your `python` code in the `Discord-Bot` folder
-
-4. Modify the bot code to do either of the following:
-
-- outputs quotes based on a command of your choice
-  - note that this _must_ be a different command and set of quotes from the demo
-- outputs pictures based on a command of your choice
-  - see `!corgme` in the Department server under Discussion. Please spam #cute-pets only
 
 5. Update the `README.md` with documentation. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
 
@@ -52,15 +45,20 @@ For the changes, you'll be customizing the bot to output your set of messages wh
 - Dependencies
   - Is `python` required? What version? How do you install `discord.py`?
 
-## Part 2 - Discord Bot Production
+## Part 2 - Discord Bot Modifications
 
-Clone your repo and run your code on the AWS instance.
+1. Clone your repo and run your code on the AWS instance.
 
-Make tweaks locally (such as adding another quote)
+2. Create a `branch` and make one of the modifications to the code listed below:
+  - outputs quotes based on a command of your choice
+    - note that this _must_ be a different command and set of quotes from the demo
+  - outputs pictures based on a command of your choice
+    - see `!corgme` in the Department server under Discussion. Please spam #cute-pets only
+  - Note: you are allowed to both, or pay around beyond just these, but at minimum one of these
 
-Use `pull`s to have the changes deploy to "production"
+3. Test your changes while on the `branch`.  When your changes are tested and working, `merge` your `branch` changes with `main`
 
-## The Research Part
+## Part 3 - R&D (Research & Documentation)
 
 For both projects, especially the Discord bot, you may have realized that it is lame that it only runs when you run the program.
 
