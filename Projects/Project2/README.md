@@ -1,4 +1,4 @@
-# Project 2 - NOT FINALIZED
+# Project 2
 
 Note: any time you see repository, assume your GitHub repo for this course, not the one we made in Project 1 manually on the AWS instance.
 
@@ -30,10 +30,11 @@ For the changes, you'll be customizing the bot to output your set of messages wh
 2. Get the core code from [bot.py](bot.py) and copy / paste in into a `.py` file in your repo
   - Don't go getting exctied and making modifications YET - you'll be needing to put changes on a `branch`
 3. [Follow this guide](https://realpython.com/how-to-make-a-discord-bot-python/) to create a Discord bot in a Discord server you control.
-
-- The code for the bot can run either from your personal machine OR run it on the Linux AWS system.
-- I created a fresh Discord server to play around in. You are welcome to do this in any Discord server you have admin privledges or create your own (it's free)
-- Put your `python` code in the `Discord-Bot` folder
+  - This documentation covers a lot, including:
+    - Setup in the [Discord Developer Portal](https://discord.com/developers/applications) & create a key
+    - The special name and file your key will go in (hint: it's a `.env`)
+    - The python libraries that you need to add
+    - How the code is working (because it is fun to look at, and the code itself is not heavily commented)
 
 ## Part 2 - Discord Bot Modifications
 
@@ -69,3 +70,20 @@ For the changes, you'll be customizing the bot to output your set of messages wh
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/ceg3120-YOURGITHUBNAME
 
 2. In Pilot, paste the link to your project folder.  Sample link: https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME/blob/main/Projects/Project2
+
+## Extra Info
+
+### Create a Discord server
+
+You are welcome to use any Discord server you are an admin of.  Otherwise you can create a new server:
+
+- Open Discord
+- In your list of servers (those icons on the sidebar), click the "+" button to "Add a server"
+- Click "Create My Own", then "For me and my friends"
+- Give your server a name
+
+### Get a file off `git` / GitHub tracking
+
+Mistakes happen.  If you made your API key public (up to GitHub), Discord killed it.  Make a new key in the Discord Developer Portal, eat some ice cream (as needed), and deal with untracking a tracked file, below.
+
+- TODO
