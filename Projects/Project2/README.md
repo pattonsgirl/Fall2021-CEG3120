@@ -24,26 +24,16 @@ Run the project locally (your system, perhaps), first.  Next, clone it (your Git
 
 For the changes, you'll be customizing the bot to output your set of messages when a command of your choice is written on your Discord server.  To do this, you are going to create a `branch`, make your changes, test them, and then `merge` your changes with `main`
 
-## Part 1
+## Part 1 - Discord Bot Setup
 
 1. Create a folder in your repository called `Discord-Bot`
 2. Get the core code from [bot.py](bot.py) and copy / paste in into a `.py` file in your repo
+  - Don't go getting exctied and making modifications YET - you'll be needing to put changes on a `branch`
 3. [Follow this guide](https://realpython.com/how-to-make-a-discord-bot-python/) to create a Discord bot in a Discord server you control.
 
 - The code for the bot can run either from your personal machine OR run it on the Linux AWS system.
 - I created a fresh Discord server to play around in. You are welcome to do this in any Discord server you have admin privledges or create your own (it's free)
 - Put your `python` code in the `Discord-Bot` folder
-
-5. Update the `README.md` with documentation. Use each bulleted item as a header (see [markdown-demo](../../markdown-demo.md)):
-
-- Description
-  - What the code does
-  - What commands the bot can use, and what they do.
-- How to use an API key
-  - You may assume the user has created a Discord API key; you do not need to details how to do this to the user
-  - Where does the key need to be located? Is this an environment variable? How did it get "loaded" into the system?
-- Dependencies
-  - Is `python` required? What version? How do you install `discord.py`?
 
 ## Part 2 - Discord Bot Modifications
 
@@ -60,16 +50,19 @@ For the changes, you'll be customizing the bot to output your set of messages wh
 
 ## Part 3 - R&D (Research & Documentation)
 
-For both projects, especially the Discord bot, you may have realized that it is lame that it only runs when you run the program.
-
-In the real world, things are "always on", not waiting for Bob to turn his PC on and make sure the program is running.
-
-Research some possible solutions that would solve this, and discuss why you think it would work.
-
-
-## Guided Questions
-
-You don't need to answer these as part of your project.  They serve as hints to figure out the project.
+- In `Discord-Bot` folder, add a `README.md` file.  Document the following:
+  - Setup
+    - how to get an API
+    - where to put it to work with the code
+    - dependencies (what packages need to be installed to run the code)
+  - Usage
+    - with your changes to the code in place, describe
+    - what commands you can type in your Discord server
+    - what response this will provide (from your bot)
+  - Research
+    - you may have realized that it is lame that it only runs when you run the program.
+    - In the real world, things are "always on", not waiting for Bob to turn his PC on and make sure the program is running.
+    - Research some possible solutions that would solve this, and discuss why you think it would work.
 
 ## Submission
 
