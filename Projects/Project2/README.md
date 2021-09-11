@@ -18,7 +18,7 @@ Your job is to put the code into your repository (in GitHub classrooms) in a fol
   - where to store the API key for the project to run
   - keep the API key / secret information off GitHub
     - If you mess up, you'll need to create a new Discord API key, then tread carefully
-    - TODO: instructions for untracking a tracked file
+    - See [Extra Info](#Extra-Info) for instructions on removal a file from tracking on GitHub
   - install the python packages needed to run the project
 Run the project locally (your system, perhaps), first.  Next, clone it (your GitHub classrooms repo) to your AWS instance and run the project from there.
 
@@ -33,7 +33,7 @@ For the changes, you'll be customizing the bot to output your set of messages wh
   - This documentation covers a lot, including:
     - Setup in the [Discord Developer Portal](https://discord.com/developers/applications) & create a key
     - The special name and file your key will go in (hint: it's a `.env`)
-    - The python libraries that you need to add
+    - The python libraries that you need to add / install
     - How the code is working (because it is fun to look at, and the code itself is not heavily commented)
 
 ## Part 2 - Discord Bot Modifications
