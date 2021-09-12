@@ -41,6 +41,14 @@ Intro to setting up the cloud
     Create a cloud formation template that automates this process.
         Note: use AMI in template, use specific port list, open to public & "home" ip
 
+Deploying a Flask App
+
+    https://flask.palletsprojects.com/en/2.0.x/server/
+    https://flask.palletsprojects.com/en/2.0.x/deploying/
+    https://flask.palletsprojects.com/en/2.0.x/deploying/mod_wsgi/
+    https://newbedev.com/flask-at-first-run-do-not-use-the-development-server-in-a-production-environment
+
+
 Playing with Load Balancing & deploying config files
     Project 4:
     Cloud formation w/ 3 servers
