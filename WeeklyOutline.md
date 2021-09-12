@@ -1,6 +1,6 @@
 # Weekly Outline for CEG 3120
 
-## Week 1 & 2
+## Week 1 & 2 (8/23 & 8/30)
 - syllabus
 - create aws stack (maybe too soon, future note?)
 - terminal command reminder
@@ -22,7 +22,7 @@
         - SSH private key exists locally
         - investigate ~/.ssh/config
 
-## Week 3
+## Week 3 (9/6)
 - Note: this was two days for Fall due to holiday
 - Project 1 review
 - git extras
@@ -32,7 +32,7 @@
     - branching
     - Pull Requests
 
-## Week 4
+## Week 4 (9/13)
 - git stuff
     - Pull Requests in action
     - removing files from tracking
@@ -50,15 +50,15 @@
     - make a branch for changes to bot responses
     - explore ways to detach from terminal
 
-- TODO: bump Project 2 to 27th?
+- TODO: bump Project 2 to 24th?
 
-## Week 5
+## Week 5 (9/20?)
 - Project 2 review
 - review of networking terminology
 - intro to navigating AWS
     - EC2 instance types
-    - images
-    - networking
+    - images / AMI
+    - networking (VPC, subnet, security group)
     - firewalls
 - intro to contents of a CloudFormation Template
 - Project 3
@@ -66,7 +66,34 @@
     - Creating a CloudFormation template
     - October 4th?
 
-## Midterm - Friday October 15th
+## X (9/27)
 
+## X (10/4)
+
+## Midterm week (10/11)
+- one class day this week
+- Midterm review 10/13
+- Midterm - Friday October 15th
+
+## X (10/18)
+
+## X (10/25)
+
+## X (11/1)
+
+## X (11/8)
+
+## X (11/15)
+
+## X (11/22)
+- Note: one class day this week
+
+## X (11/29)
+
+## Finals Week (12/6)
+
+- Proxies & Load Balancers & server monitoring
+- Hooks & GitHub actions? webhooks?  To trigger pull?
+- Docker & container building / deployment
 
 
