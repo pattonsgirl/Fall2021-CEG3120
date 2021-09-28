@@ -53,7 +53,7 @@ For the changes, you'll be customizing the bot to output your set of messages wh
 
 - In `Discord-Bot` folder, add a `README.md` file.  Document the following:
   - Setup
-    - how to get an API
+    - how to get an API token
     - where to put it to work with the code
     - dependencies (what packages need to be installed to run the code)
   - Usage
