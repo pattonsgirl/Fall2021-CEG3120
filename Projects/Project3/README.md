@@ -76,6 +76,8 @@ For each step below, provide a screenshot that shows the network resource has be
 
 2. In Pilot, paste the link to your project folder.  Sample link: https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME/blob/main/Projects/Project3
 
+3. You may delete all created resources once done to save monies.  No really, trash it - especially the instance and disassociate and release the elastic ip
+
 ## Rubric
 
 [Link to Rubric](Rubric.md)
