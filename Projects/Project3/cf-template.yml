@@ -131,5 +131,26 @@ Resources:
             #!/bin/bash -xe
             apt-get update && \
             apt-get install -y \
-              replace-me && \
+              python \
+              nmap \
+              vim \
+              git \
+              wget \
+              make \
+              cmake \
+              openjdk-11-jdk \
+              build-essential \
+              python-dev \
+              python3-dev && \
             reboot
+      BlockDeviceMappings:
+          - DeviceName: /dev/sda1
+            Ebs:
+              VolumeType: 'gp2'
+              VolumeSize: '16'
+              Encrypted: 'false'
+          - DeviceName: /dev/sdb
+            Ebs:
+              VolumeType: 'gp2'
+              VolumeSize: '4'
+              Encrypted: 'false'
