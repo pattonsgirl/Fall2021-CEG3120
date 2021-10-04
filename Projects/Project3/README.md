@@ -19,7 +19,7 @@ In your `Project3` folder, create a file named `README.md`  Do you work for Part
 
 ## Part 1 - Build a VPC
 
-For each step below, provide a screenshot that shows the network resource has been created according to specification.  You may add whatever additional notes you would like.  The screenshots are required.  Any notes you leave behind may make this project more useful in the future.  This will usually involve clicking on the resource, and showing configurations in the details menu
+For each step below, provide a screenshot that shows the network resource has been created according to specification along with a description of what the resource does (what is its role).  You may add whatever additional notes you would like.  **The screenshots and description are required**.  Any other notes you leave behind may make this project more useful in the future.  Getting a good screenshot can be done by clicking on the resource and showing configurations in the details menu.
 
 1. Create a VPC.  
     - Tag it with "YOURLASTNAME-VPC"

@@ -4,11 +4,11 @@
 
 ## Part 1
 
-1. VPC created & configured
-2. Subnet created & configured
-3. Internet gateway created & configured
-4. Route table created and configured
-5. Security group created and configured
+1. VPC created & configured & role described
+2. Subnet created & configured & role described
+3. Internet gateway created & configured & role described
+4. Route table created and configured & role described
+5. Security group created and configured & role described
 
 ## Part 2
 
