@@ -14,9 +14,9 @@
 4. A ____ is a piece of software that I can run my code through in order to check for consistent code practices.  They are not debuggers, but can warn me of unused variables, fix formatting, and reorder imported / included libraries.  While they exist for most languages, we have looked at black, isort, and pylint for python code.
     - linter
     - static analysis tool
-    - compilers compile code.  They are needed for compiled languages.  Compilers do not care about baest practices, just if you code as written can be compiled into an executable program
-    - hooks can be used to run linters
-    - unit tests are a piece of code I create - unit tests are not usually used for best practices, more towards if your code you are working on integrating will break the ecosystem of code you are adding to
+    - Wrong: compilers.  Compilers compile code.  They are needed for compiled languages.  Compilers do not care about baest practices, just if you code as written can be compiled into an executable program
+    - Wrong: hooks.  hooks in the .git folder can be used to run linters
+    - Wrong: unit tests.  Unit tests are a piece of code I create - unit tests are not usually used for best practices, more towards if your code you are working on integrating will break the ecosystem of code you are adding to
 
 5. What does a subnet mask allow me to define?
     - a subnet mask defines the **range of IP addresses** that can be used within a network or subnet
