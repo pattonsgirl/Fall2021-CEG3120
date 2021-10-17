@@ -75,6 +75,6 @@ Your deliverable is a CloudFormation template.  Make sure you include it in your
 1. Commit and push your changes to your repository.  Verify that these changes show in your course repository, https://github.com/WSU-kduncan/ceg3120-YOURGITHUBNAME
     - Your repo should contain:
     - `YOURLASTNAME-cf.yml`
-    - `README.md`
+    - `README.md` (optional)
 
-2. In Pilot, paste the link to your project folder.  Sample link: https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME/blob/main/Projects/Project3
+2. In Pilot, paste the link to your project folder.  Sample link: https://github.com/WSU-kduncan/ceg3120-YOURGITHUBUSERNAME/blob/main/Projects/Project4
