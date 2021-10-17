@@ -19,7 +19,7 @@ You are welcome to include notes in a README.md file in your folder in your repo
 - This stack can be deleted once your CloudFormation template can successfully create it
 
 
-## Part 1 - Your first CloudFormation template
+## Your first CloudFormation template
 
 I think we can agree that was a lot of menus to go through and things to check.  If you were working for, say, a web development company, and you had to do that everytime you got a new customer who wanted a webpage, there would be some frustrations.  The "cloud" agrees, and therefore cloud services created templates.  In AWS, these are called CloudFormation templates.  In these files, you layout every detail of how you want your EC2 setup to be, from VPC to instances.  AWS CloudFormation can take these files as input, and feed the values into API calls that create and configure the resources.
 
@@ -69,6 +69,10 @@ Your deliverable is a CloudFormation template.  Make sure you include it in your
     - The configuration script uses some bash syntax.
         - space / ` /` means the command continues on a new line.  Very nice for readability
         - && `&&` need to go inbetween commands.  You will see space && / ` && /` in between commands - again, readability
+
+## Identifying Success
+
+A successful stack will (once created) have an instance you can ssh into.
 
 ## Submission
 

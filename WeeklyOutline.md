@@ -52,9 +52,10 @@
 
 - TODO: bump Project 2 to 24th?
 
-## Week 5 (9/20?)
+## Week 5 (9/20? - 10/24)
 - Project 2 review
 - review of networking terminology
+    - needs improvement
 - intro to navigating AWS
     - EC2 instance types
     - images / AMI
@@ -63,12 +64,8 @@
 - intro to contents of a CloudFormation Template
 - Project 3
     - Manually creating the resources of a stack
-    - Creating a CloudFormation template
+    - ~~Creating a CloudFormation template~~
     - October 4th?
-
-## X (9/27)
-
-## X (10/4)
 
 ## Midterm week (10/11)
 - one class day this week
@@ -76,21 +73,61 @@
 - Midterm - Friday October 15th
 
 ## X (10/18)
+- Midterm review, reminder overview of CF templates
+- Understanding logs, usage of configuration files, process control w/ systemctl
+- Distributed architecture
+    - load balancing w/ HAproxy
+- Fault tolerance & monitoring
+    - HAProxy built-ins
+    - monitoring service?  Grafana remains tempting
 
 ## X (10/25)
 
 ## X (11/1)
+- Directory service & relational database concepts and usage
+    - host db on a system?  the books API example?
 
 ## X (11/8)
 
 ## X (11/15)
+- scalability
+    - containers
 
 ## X (11/22)
 - Note: one class day this week
+- continuous development and integration
+    - GitHub actions
+    - docker hub
+    - GitHub webhooks?
 
 ## X (11/29)
 
 ## Finals Week (12/6)
+
+Course Learning Objectives:
+1.	Understanding of what can be accomplished be using modern language features and software development practices to develop a distributed information technology system
+2.	Understanding of networking roles in a distributed information technology infrastructure
+3.	Use of and application of modern software development tools and methodologies and part of a team
+4.	Distributed architecture and fault tolerance concepts
+5.	Application programming interface design and usage
+6.	Directory and relational database concepts and integration
+7.	Introduction to cloud systems and modern deployment techniques
+8.	Introduction to continuous development and continuous integration
+Course Outline:
+1.	Using the command line interface & scripting
+2.	~~Networking (private vs public accessibility, sockets & ports, SSH keys)~~
+3.	Understanding logs, usage of configuration files, process control
+4.	~~Development tools (version management, team organization)~~
+5.	Cloud infrastructure & Infrastructure as a Service (IaaS)
+6.	~~Utilizing Application Programming Interfaces (APIs) & Service Oriented Architecture (SOA)~~
+7.	Directory service & relational database concepts and usage
+8.	Continuous integration & automating change management
+9.	Continuous deployment & automating production
+10.	Distributed architecture
+11.	Infrastructure as Code (IaC)
+12.	Fault tolerance & health monitoring
+13.	Introduction to scalability, cost, and maintenance considerations
+
 
 - Proxies & Load Balancers & server monitoring
 - Hooks & GitHub actions? webhooks?  To trigger pull?
