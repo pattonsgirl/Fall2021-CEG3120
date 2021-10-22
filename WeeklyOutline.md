@@ -74,12 +74,22 @@
 
 ## X (10/18)
 - Midterm review, reminder overview of CF templates
-- Understanding logs, usage of configuration files, process control w/ systemctl
-- Distributed architecture
-    - load balancing w/ HAproxy
-- Fault tolerance & monitoring
-    - HAProxy built-ins
-    - monitoring service?  Grafana remains tempting
+- messing with a webserver
+    - apache vs nginx
+    - status / control of services (systemctl)
+    - service logs (apache & ssh)
+    - HTTPS vs HTTP and notes on certificates
+    - security groups
+    - iptables? system level firewalls
+    - nmap -p 1-5000 server
+- load balancing and fault tolerance
+    - HAproxy configurations
+    - keeping backend servers private - when are public IPs needed?
+    - fault tolerance of non-responsive backends
+
+- monitoring
+    - Networked systems (Grafana?)
+    - cloud costs and usage
 
 ## X (10/25)
 
@@ -127,10 +137,5 @@ Course Outline:
 11.	Infrastructure as Code (IaC)
 12.	Fault tolerance & health monitoring
 13.	Introduction to scalability, cost, and maintenance considerations
-
-
-- Proxies & Load Balancers & server monitoring
-- Hooks & GitHub actions? webhooks?  To trigger pull?
-- Docker & container building / deployment
 
 
