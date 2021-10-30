@@ -1,4 +1,4 @@
-# Project 5 - ALMOST READY
+# Project 5
 
 - [Objectives](#Objectives)
 - [Project Description](#Project-Description)
@@ -65,14 +65,26 @@ The deliverable for this part is the CloudFormation template included in your re
 
 Setup the following and add documentation or screenshots to your `README.md` file as specified.
 
-1. Document how to SSH in between the systems utilizing their private IPs.
-2. Create an `/etc/hosts` file on each system that correlates hostnames to private IPs
-3. On the instance with a public ip address (which we will refer to as the proxy server), configure  
-   haproxy to use the two webservers as content providers (servers that hold website content)
-4. On each webserver, configure them to have a "unique" page.
+1. Create an `/etc/hosts` file on each system that correlates hostnames to private IPs
+2. Document how to SSH in between the systems utilizing their private IPs.
+3. **_HAProxy configuration & documentation requirements_**
+   - How to install package
+     - Yes, your template should preinstall the package. Write it again for your documentation
+   - What file(s) where modified & their location
+   - What configuration(s) were set (if any)
+   - How to restart the service after a configuration change
+   - Resources used (websites)
+4. **_Webserver 1 & 2 configuration & documentation requirements_**
+   - How to install package
+     - Yes, your template should preinstall the package. Write it again for your documentation
+   - What file(s) where modified & their location
+   - What configuration(s) were set (if any)
+   - How to restart the service after a configuration change
+   - Resources used (websites)
 5. From the browser, when connecting to the proxy server, take two screenshots.
    - one screenshot that shows content from "server 1"
    - one screenshot that shows content from "server 2"
+6. (Optional) - link to your proxy so I can click it.
 
 ## Resources and Warnings
 
