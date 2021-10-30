@@ -65,7 +65,8 @@ The deliverable for this part is the CloudFormation template included in your re
 
 Setup the following and add documentation or screenshots to your `README.md` file as specified.
 
-1. Create an `/etc/hosts` file on each system that correlates hostnames to private IPs
+1. Create an `/etc/hosts` file on each system that correlates hostnames to private IPs.  
+   Description of how file is configured
 2. Document how to SSH in between the systems utilizing their private IPs.
 3. **_HAProxy configuration & documentation requirements_**
    - How to install package
