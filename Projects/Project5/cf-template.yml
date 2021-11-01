@@ -168,5 +168,5 @@ Resources:
             apt-get update && \
             # need to install apache or nginx
             apt-get install -y git && \
-            hostnamectl 
+            # give it a hostname - hostnamectl  && \
             reboot
