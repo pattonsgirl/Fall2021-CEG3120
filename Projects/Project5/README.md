@@ -34,10 +34,10 @@ The following is provided in this project folder:
 
 - [cf-template.yml](cf-template.yml)
   - Note: this templated is updated from previous versions to get you started on this project
-- [index.srv1.html](index.serv1.html)
+- [index.srv1.html](index.srv1.html)
   - Note: you can use your own webpage, but for this project you'll need the files to be "different"  
     so that you can tell the content is coming from a different server
-- [index.serv2.html](index.serv2.html)
+- [index.srv2.html](index.srv2.html)
 
 ## Part 1 - CloudFormation Template TODOs
 
