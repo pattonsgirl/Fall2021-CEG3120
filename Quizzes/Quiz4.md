@@ -41,6 +41,8 @@ ACCEPT     tcp  --  130.108.0.0/16       anywhere             tcp dpt:http
 
       - False - the first rule in the chain will drop all traffic to port 80. The 130.108.0.0/16 allow rule is second, which would not get read or made an expection
 
+```
 Commands to recreate quiz scenarios:
 iptables -A INPUT -s 0.0.0.0/0 -p tcp --destination-port 80 -j DROP
 iptables -A INPUT -s 130.108.0.0/16 -p tcp --destination-port 80 -j ACCEPT
+```
