@@ -80,6 +80,13 @@ Resources:
     Properties:
       Domain: vpc
       InstanceId: !Ref PublicUbuntuInstance
+  Web1IPAddress:
+    Type: 'AWS::EC2::EIP'
+    DependsOn: AttachGateway
+    Properties:
+      Domain: vpc
+      InstanceId: !Ref WebServ1Instance
+  # Create one more elastic IP for the last instance
   Lab1SecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
@@ -156,7 +163,7 @@ Resources:
       NetworkInterfaces:
         - GroupSet:
             - !Ref Lab1SecurityGroup
-          AssociatePublicIpAddress: 'false'
+          AssociatePublicIpAddress: 'true'
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref Subnet
