@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-   Creates 3 instances and 1 VPC.  Each instance gets a private ip address.  1 instance gets an elastic IP address.
+   Creates 3 instances and 1 VPC.  Each instance gets a private IP and is pre-installed with required software.  Each instance also has a public / elastic IP because we can't create NAT gateways...
 Parameters:
   KeyName:
     Description: Name of an existing EC2 KeyPair to enable SSH access to the instance
