@@ -55,6 +55,7 @@ All said and done, your template should do the following:
    - haproxy is installed
    - the hostname is changed and unique to the system
 4. Two additional instances configured such that:
+   - **Update 11/4** each instance gets a unique elastic IP address
    - each gets a unique private IP
    - webserver of choice is installed
    - the hostname changed and unique for each system
