@@ -98,6 +98,9 @@ Setup the following and add documentation or screenshots to your `README.md` fil
 - You **DO NOT** need to mess with UFW rules. You may lock yourself out of SSH access.
 - You can have a maximum of **FIVE Elastic IP Addresses and FIVE VPCs**
 - To manage resources & keep costs down, you will need to delete your CloudFormation stack in between build & test
+- [How to edit /etc/hosts](https://linuxize.com/post/how-to-edit-your-hosts-file/)
+- [The SSH config file](https://linuxize.com/post/using-the-ssh-config-file/)
+- [How to SFTP](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
 
 ## Submission
 
