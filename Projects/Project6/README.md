@@ -1,6 +1,9 @@
 # Project 6 - NOT FINALIZED
 
 - [Objectives](#Objectives)
+- [Part 1 - Dockerize it](#Part-1---Dockerize-it)
+- [Part 2 - GitHub Actions and DockerHub](#Part-2---GitHub-Actions-and-DockerHub)
+- [Part 3 - Deployment](#Part-3---Deployment)
 - [Submission](#Submission)
 - [Extra Credit](#Extra-Credit)
   - dockerize the discord bot
@@ -21,6 +24,8 @@ For this project, you'll need access to a public repo. I'm going to guess that y
 
 - **Milestone Participation due 11/19**
 
+### Tasks
+
 - Create new GitHub repo (link to create located in Pilot in Content -> Project 6)
 - In a folder named `website`, add the contents of your website
   - this can be a site you created in another class, pet project of yours, or just a vanilla html file
@@ -31,9 +36,21 @@ For this project, you'll need access to a public repo. I'm going to guess that y
 - Create a Dockerfile with instructions on how to build the image
 - Add site content & Dockerfile to repo
 
-## Part 2 - GitHub Actions & DockerHub
+### Documentation
 
-- **Milestone Participation due 11/29**
+- Create `README.md` in main folder of your repo that details the following:
+- Project Overview
+- Run Project Locally
+  - how you installed docker + dependencies (WSL2, for example)
+  - how to build the container
+  - how to run the container
+  - how to view the project (open a browser...go to ip and port...)
+
+## Part 2 - GitHub Actions and DockerHub
+
+- **Milestone Participation due 12/3**
+
+### Tasks
 
 - Create DockerHub account: https://hub.docker.com/ (select Free tier if prompted)
 - Create Public Repository in DockerHub
@@ -41,41 +58,61 @@ For this project, you'll need access to a public repo. I'm going to guess that y
 - Set up GitHub Actions workflow to build and push docker image to DockerHub
   - Use workflow templated here: https://docs.github.com/en/actions/guides/publishing-docker-images#publishing-images-to-docker-hub
 
+### Documentation
+
+- Update `README.md` in main folder of your repo to include:
+
+- Create DockerHub public repo
+  - process to create
+- Allow DockerHub authentication via CLI using Dockhub credentials
+- Configure GitHub Secrets
+  - what credentials are needed - DockerHub credentials (do not state your credentials)
+  - set secrets and secret names
+- Configure GitHub Workflow
+  - variables to change (repository, etc.)
+
+### Resources
+
+- [GitHub Actions - Docker Docs](https://docs.docker.com/ci-cd/github-actions/)
+
 ## Part 3 - Deployment
 
-- **Milestone due**
+- **Milestone Participation due 12/6**
 
-- Create `README.md` in main folder of your repo that details the following:
-  - Project Overview
-  - Run Project Locally
-    - how you installed docker + dependencies (WSL2, for example)
-    - how to build the container
-    - how to run the container
-    - how to view the project (open a browser...go to ip and port...)
-  - Configure AWS CLI
-    - need AWS IAM user with admin credentials
-    - how you installed
-    - how to configure
-  - Create DockerHub public repo
-    - process to create
-  - Configure GitHub Secrets
-    - what credentials are needed - DockerHub credentials (do not state your credentials)
-    - set secrets and secret names
-  - Configure GitHub Workflow
-    - variables to change (repository, etc.)
+### Tasks
 
-## Extra Credit - Docker Pull
+- For this piece, you can use your backend pool of webservers from the project 5 or just another EC2 instance.
+- Install docker on the instance
+- Pull your project image
+- Run the container - bind it to the host's port 80
 
-- Documentation to perform the following:
-  - How to pull image with `docker pull`, what repo is the image in, requirements of the repo (public vs. private)
-  - Run the pulled image locally, using your system or a system on AWS as the host.
+### Documentation
 
-## Extra Credit - [Docke]Rise of the Discord Bot
+- Update `README.md` in main folder of your repo to include:
+- Pulling the image
+- Running the container
 
-- Dockerize your python bot - place in repo in folder named `Discord-Bot`
-  - Add instructions to handle API key from Discord. Maybe have a docker copy that gets a .env file from their path (this need to exist to build and run image)
-  - Your API key may be the most challenging piece of this project extra credit. GitHub secrets might be handy.
-  - Be sure to site your sources if you model off of an example / other documentation
+## Extra Credit - Automate Deployment
+
+Here's the deal. DockerHub and GitHub and many other things offer these things called "webhooks". Think very basic triggers that can notify when actions happen (actions in the lowercase sense, GitHub Actions are their own thing). The goal is to automate deploying updates. I am including some resources that may (or may not) be good directions to check out. I will accept either of the following strategies:
+
+1. Use a GitHub webhook to trigger an update script to pull changes on the server
+   - [How to Automatically Deploy from GitHub to server using webhook](https://betterprogramming.pub/how-to-automatically-deploy-from-github-to-server-using-webhook-79f837dcc4f4)
+2. Use DockerHub webhooks to pull an updated image
+   - [Build CI/CD Pipelines Using Docker](https://circleci.com/blog/build-cicd-piplines-using-docker/)
+   - [docker hook - GitHub repo](https://github.com/schickling/docker-hook)
+   - [docker image puller - GitHub repo](https://github.com/tuxity/docker-image-puller)
+
+The [Webhook](https://github.com/adnanh/webhook) package has the most potential usefulness.
+
+## Extra Credit - Rise of the Discord Bot
+
+- Dockerize your python bot. Place in repo in folder named `Discord-Bot`. Include the following:
+  - the docker bot code & api
+  - the Dockerfile that builds the image
+  - a `README.md` file that contains documentation on how the project works
+- The hard part here is dealing with the secret. It shouldn't exist in the image we send around - then anyone would have it. It should only exist on servers we trust running the container.
+- My recommended method here will be to create a folder that we share with the running container - this is known as a mount or a volume.
 
 ## Submission
 
