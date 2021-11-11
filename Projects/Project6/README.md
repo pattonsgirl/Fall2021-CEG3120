@@ -20,7 +20,7 @@
 
 For this project you will be creating a fresh repository - the link is in Pilot under Content - Projects - Project 6. This is the repo you will be using for this project.
 
-You will notice that each part has "Milestone" labels and dates. This project is not due until 12/10. Completion of each milestone **by the date specificied for the milestone** will get you 1 pt of extra credit per milestone date met. To qualify, you must submit your project to the Dropbox for Project 6 in Pilot.
+You will notice that each part has "Milestone" labels and dates. This project is not due until 12/8. Completion of each milestone **by the date specificied for the milestone** will get you 1 pt of extra credit per milestone date met. To qualify, you must submit your project to the Dropbox for Project 6 in Pilot.
 
 ## Part 1 - Dockerize it
 
