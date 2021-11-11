@@ -1,13 +1,13 @@
-# Project 6 - NOT FINALIZED
+# Project 6
 
 - [Objectives](#Objectives)
+- [Project Overview](#Project-Overview)
 - [Part 1 - Dockerize it](#Part-1---Dockerize-it)
 - [Part 2 - GitHub Actions and DockerHub](#Part-2---GitHub-Actions-and-DockerHub)
 - [Part 3 - Deployment](#Part-3---Deployment)
 - [Submission](#Submission)
-- [Extra Credit](#Extra-Credit)
-  - dockerize the discord bot
-  - store the API key in a volume
+- [Extra Credit - Automate Deployment](#Extra-Credit---Automate-Deployment)
+- [Extra Credit - Rise of the Discord Bot](#Extra-Credit---Rise-of-the-Discord-Bot)
 - [Rubric](Rubric.md)
 
 ## Objectives
@@ -18,7 +18,9 @@
 
 ## Project Overview
 
-For this project, you'll need access to a public repo. I'm going to guess that your class repo may not be in a state where it should be made public (remember those Discord API keys?), so in Pilot you will find a new invite link to a public repo for this course. Completion of each milestone **by the date specificied for the milestone** will get you 1 pt of extra credit per milestone met. To qualify, you must submit your project to the Dropbox for Project 6 in Pilot.
+For this project you will be creating a fresh repository - the link is in Pilot under Content - Projects - Project 6. This is the repo you will be using for this project.
+
+You will notice that each part has "Milestone" labels and dates. This project is not due until 12/10. Completion of each milestone **by the date specificied for the milestone** will get you 1 pt of extra credit per milestone date met. To qualify, you must submit your project to the Dropbox for Project 6 in Pilot.
 
 ## Part 1 - Dockerize it
 
@@ -92,6 +94,19 @@ For this project, you'll need access to a public repo. I'm going to guess that y
 - Pulling the image
 - Running the container
 
+## Submission
+
+1. Commit and push your changes to your repository. Verify that these changes show in your course  
+   repository.
+
+   - Your repo should contain:
+   - `README.md`
+   - `website` folder with website pages
+   - `Dockerfile`
+   - GitHub action yml file
+
+2. In Pilot, paste the link to your project folder.
+
 ## Extra Credit - Automate Deployment
 
 Here's the deal. DockerHub and GitHub and many other things offer these things called "webhooks". Think very basic triggers that can notify when actions happen (actions in the lowercase sense, GitHub Actions are their own thing). The goal is to automate deploying updates. I am including some resources that may (or may not) be good directions to check out. I will accept either of the following strategies:
@@ -113,9 +128,3 @@ The [Webhook](https://github.com/adnanh/webhook) package has the most potential 
   - a `README.md` file that contains documentation on how the project works
 - The hard part here is dealing with the secret. It shouldn't exist in the image we send around - then anyone would have it. It should only exist on servers we trust running the container.
 - My recommended method here will be to create a folder that we share with the running container - this is known as a mount or a volume.
-
-## Submission
-
-In your GitHub repository, select the green `Code` button then select `Download ZIP`. Upload this zip file to Pilot.
-
-In the `Comment` area in the Pilot Dropbox, copy URL / link to the repository corresponding to the project you are submitting
