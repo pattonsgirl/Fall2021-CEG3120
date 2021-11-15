@@ -25,3 +25,6 @@
 
 6. What port is haproxy listening for connections on?
    - 80
+   - Incorrect: port 85 - This is the full article from the first answer on Google: https://docs.rightscale.com/faq/What_is_HAProxy_and_how_does_it_work.html
+     - We don't have apache running on the proxy server, only haproxy. Your bind was configured to port 80.
+   - Incorrect: port 32700 - Here is documentation that check for users connecting to port 32700 is order to show them the stats page instead: https://www.linode.com/docs/guides/how-to-use-haproxy-for-load-balancing/
