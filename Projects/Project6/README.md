@@ -24,7 +24,7 @@ You will notice that each part has "Milestone" labels and dates. This project is
 
 ## Part 1 - Dockerize it
 
-- **Milestone Participation due 11/19**
+- **Milestone Participation due 11/22**
 
 ### Tasks
 
