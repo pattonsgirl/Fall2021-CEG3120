@@ -1,23 +1,24 @@
 # Project 6 Rubric
 
-## Repo contents:
+/ 15
+
+## Repo contents ( / 4)
 
 - `README.md`
 - `website` folder with website pages
 - `Dockerfile`
 - GitHub action yml file in `.github/workflows`
 
-## docker basics + Dockerfile
+## docker basics + Dockerfile ( / 5)
 
-- Create `README.md` in main folder of your repo that details the following:
 - Project Overview
-- Run Project Locally
+- Run project locally
   - how you installed docker + dependencies (WSL2, for example)
   - how to build the container
   - how to run the container
   - how to view the project (open a browser...go to ip and port...)
 
-## GitHub Actions and DockerHub
+## GitHub Actions and DockerHub ( / 4)
 
 - Create DockerHub public repo
   - process to create
@@ -28,8 +29,7 @@
 - Configure GitHub Workflow
   - variables to change (repository, etc.)
 
-## Deployment
+## Deployment ( / 2)
 
-- Update `README.md` in main folder of your repo to include:
 - Pulling the image
 - Running the container
